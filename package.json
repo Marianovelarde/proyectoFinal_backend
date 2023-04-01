@@ -1,0 +1,24 @@
+{
+  "name": "proyecto-final-numen",
+  "version": "1.0.0",
+  "description": "este es el proyecto final de backen de la carrera fullStac\u001b[",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js"
+  },
+  "author": "mariano velarde",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.3.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "esm": "^3.2.25",
+    "express": "^4.18.2",
+    "express-generator": "^4.16.1",
+    "express-validator": "^6.15.0",
+    "mongoose": "^7.0.3",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.3.1"
+  }
+}
