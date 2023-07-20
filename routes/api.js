@@ -11,7 +11,7 @@ const validarNum = require("../middleWare/validarNum")
 
 router.get(`/ver`, apiController.lista)
 router.get(`/ver/:id` ,validarId ,apiController.listaUnica)
-router.get(`/apiExterna`, apiController.rickMorty)
+router.get(`/apiExterna`, apiController.persona)
 
 router.post(`/crear`, [ 
 check('prod').isString().withMessage('El producto debe ser una cadena de texto'),

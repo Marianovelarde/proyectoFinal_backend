@@ -19,14 +19,14 @@ async listaUnica (req,res) {
 },
 
 
-async rickMorty (req,res) {
+async persona (req,res) {
 try {
     const response =  await axios.get('https://rickandmortyapi.com/api/character')
     const characters = response.data.results
     res.status(200).json(characters)
 } catch (error) {
     console.error(error)
-    res.status(500).send('error al obtener los personajes de Rick And Morty')
+    res.status(501).send('error al obtener los personajes de Rick And Morty')
 }
 },
 
